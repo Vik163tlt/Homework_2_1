@@ -147,13 +147,13 @@ public class Main {
 
     private static void task9() {
         System.out.println("Задание 9");
-        int one = 40;
-        int two = 50;
-        int three = 100;
-        if (one > two && one > three) {
+        int one = 100;
+        int two = 100;
+        int three = 120;
+        if (one >= two && one >= three) {
             System.out.println("Большее значение равно " + one);
         }
-        else if (two > one && two > three) {
+        else if (two >= one && two >= three) {
             System.out.println("Большее значение равно " + two);
         }
         else {
